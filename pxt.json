@@ -1,0 +1,27 @@
+{
+    "name": "motion alarm",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "ky040": "github:tinkertanker/pxt-rotary-encoder-ky040#v1.2.1",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
